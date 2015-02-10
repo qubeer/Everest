@@ -1,0 +1,259 @@
+/*
+Author: http://yurendra.com.np
+Note: 
+Any help: yurenlimbu@gmail.com
+Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+*/
+@charset "utf-8";
+
+body {
+	font-family: 'robotolight';
+	font-size: 14px;
+	}
+
+li {
+	list-style: none;
+	}
+h1 {
+	font-size: 30px;
+	}
+h1.main-title {
+	border-left: 2px solid #111;
+	padding: 5px 0 5px 14px;
+	text-transform: uppercase;
+	color: #111;
+	margin-bottom: 40px;
+	}
+h2 {
+	
+	}
+h3 {
+	font-size: 24px;
+	}
+h4 {
+	font-size: 22px;
+	}
+
+/* --------------------/ BTNS*/
+.btn-one {
+	border: 1px solid #6fb7e9;
+	padding: 12px 25px;
+	font-size: 16px;
+	}
+	
+
+/* --------------------/ HEADER */
+
+#top-bar {
+	background: #141f27;
+	line-height: 37px;
+	}
+	
+#top-bar p, #top-bar a {
+	color: #a7a9ab;
+	}
+	
+#top-bar span {
+	color: #34424d;
+	}
+	
+#top-bar ul li {
+	display: inline-block;
+	padding: 0 5px;
+	}
+	
+ul.top-social {
+	float: right;
+	}
+	
+ul.top-social li a i {
+	font-size: 16px;
+	}	
+
+ul.top-social li a:hover i {
+	color: #fff;
+	}
+
+/* Navbar */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+	background: #3c8dc5;
+	min-height: 100px;  
+	}
+.navbar a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	}
+	
+.navbar-nav > li > a {
+	padding: 5px 20px;
+	margin: 0;
+	border-radius: 3px;
+	color: #fff;
+	line-height: 100px;
+	display: inline-block;
+	}
+
+.navbar-nav > li > a:hover{
+	background-color: #3783b8;
+  	color: #fff;
+	}
+	
+.navbar-nav > li:last-child > a {
+	background: #449edc;
+	}
+	
+/* --------------------/ BANNER */
+#myCarousel h1 {
+	font-size: 55px;
+	margin-bottom: 50px;
+	}
+#myCarousel h2 {
+	font-size: 18px;
+	}
+#myCarousel a.hvr-sweep-to-right {
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	font-size: 16px;
+	display: block;
+	width: 183px;
+	height: 48px;
+	line-height: 48px;
+	margin: 50px auto;
+	transition: border .5s;
+	}
+#myCarousel a.hvr-sweep-to-right:hover {
+	border: 1px solid #6fb7e9;
+	text-decoration: none;
+	}
+.hvr-sweep-to-right:before {
+	background: #6fb7e9;
+	}
+.carousel-caption {
+	top: 20%;
+	}
+	
+/* --------------------/ Home Servies */
+#home-services {
+	background: #fafafa;
+	padding: 50px 0;
+	}
+.service-box {
+	text-align: center;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 40px 20px;	
+	min-height: 310px;
+	}
+.service-box i {
+	font-size: 50px;
+	color: #3c8dc5;
+	}
+.service-box h3 {
+	padding: 30px 0;
+	}
+	
+/* --------------------/ Home Blog */
+#home-blog {
+	margin: 50px auto;
+	}
+#home-blog p span, #home-blog p span a {
+	font-size: 12px;
+	color: #aaa;
+	}
+#home-blog p span a:hover {
+	color: #6fb7e9;
+	}
+#home-blog p span.divider {
+	color: #ccc;
+	margin: 0 2px;
+	}
+.date {
+	margin: 15px 0;
+	}
+.blog-readmore {
+	margin-top: 20px;
+	}
+
+/* --------------------/ Testimonial */	
+#testimonial {
+	background: url(../images/testi-bg.jpg) no-repeat;
+	background-size: cover;
+	}
+.testi-pattern {
+	background: url(../images/pattern.png) ;
+	padding: 50px 0;
+	}
+.carousel-testi {
+	text-align: center;
+	}
+.carousel-testi img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	}
+.carousel-testi p {
+	font-size: 20px;
+	font-style: italic;
+	color: #fff;
+	margin: 25px 0;
+	}
+.carousel-testi p:before {
+	content: "\f10d";	
+	margin-right: 5px;	
+	}
+.carousel-testi p:after {
+	content: "\f10e";	
+	margin-left: 5px;	
+	}
+.carousel-testi p:before, .carousel-testi p:after {
+	font-size: 20px;
+	font-family:'FontAwesome';
+	font-style:normal;
+	}
+.carousel-testi span {
+	color: #b2d1e5;
+	font-size: 18px;	
+	display: block;
+	}
+a.prev, a.next {
+	display: none;
+	}
+.carousel-pagination {
+	margin-top: 25px;
+	}
+.carousel-pagination li {
+	display: inline-block;
+	margin: 0 5px;
+	}
+.carousel-pagination li a {
+	content: "#";
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
