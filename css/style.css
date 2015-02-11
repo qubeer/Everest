@@ -23,14 +23,6 @@ h1.main-title {
 	color: #111;
 	margin-bottom: 40px;
 	}
-h1.footer-title {
-	border-left: 2px solid #fff;
-	padding: 4px 0 4px 14px;
-	text-transform: uppercase;
-	color: #fff;
-	margin-bottom: 40px;
-	font-size: 25px;
-	}
 h2 {
 	
 	}
@@ -45,7 +37,7 @@ h5 {
 	}
 
 /* --------------------/ BTNS*/
-.btn-one {
+.btn-default {
 	border: 1px solid #6fb7e9;
 	padding: 12px 25px;
 	font-size: 16px;
@@ -208,57 +200,77 @@ ul.top-social li a:hover i {
 	background-size: cover;
 	height: 367px;
 	overflow: hidden;
+	text-align: center;
 	}
 .dot-pattern {
 	background: url(../images/pattern.png) ;
 	padding: 50px 0;
 	}
-.carousel-testi {
-	text-align: center;
+#myCarousel-2 {
+	height: 300px;
 	}
-.carousel-testi img {
+#testimonial img, #myCarousel-2 img {
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;
+	min-width: 100px;
+	position: relative;
+	margin: 0 auto;
 	}
-.carousel-testi p {
+#testimonial p {
 	font-size: 20px;
 	font-style: italic;
 	color: #fff;
-	margin: 25px 0;
+	margin: 25px 10px;
+	
 	}
-.carousel-testi p:before {
+#testimonial p:before {
 	content: "\f10d";	
-	position: absolute;
-	left: 10px;
+	left: -10px;
+	bottom: 5px;
 	}
-.carousel-testi p:after {
-	content: "\f10e";	
-	position: absolute;	
+#testimonial p:after {
+	content: "\f10e";		
+	right: -10px;
+	top: 5px;
 	}
-.carousel-testi p:before, .carousel-testi p:after {
+#testimonial p:before, #testimonial p:after {
+	position: relative;
 	font-size: 20px;
 	font-family:'FontAwesome';
 	font-style:normal;
 	}
-.carousel-testi span {
-	color: #b2d1e5;
+#testimonial span {
+	color: #3783b8;
 	font-size: 18px;	
 	display: block;
 	}
-a.prev, a.next {
-	display: none;
+#testimonial .item {
+	background: none;
 	}
-.carousel-pagination {
-	margin-top: 25px;
-	}
-.carousel-pagination li {
-	display: inline-block;
-	margin: 0 5px;
-	}
-.carousel-pagination li a {
-	content: "#";
-	}
+	
+/* Carousel Fade */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}	
 
 /* --------------------/ Home Portfolio */	
 #home-portfolio {
@@ -329,6 +341,14 @@ a.prev, a.next {
 	background: #111;
 	padding: 50px 0 0 0;
 	color: #fff;
+	}
+#footer h3 {
+	border-left: 2px solid #fff;
+	padding: 4px 0 4px 14px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 40px;
+	font-size: 25px;
 	}
 #footer .news-box h4 a {
 	color: #fff;
