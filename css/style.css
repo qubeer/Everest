@@ -25,7 +25,7 @@ h1.main-title {
 	}
 h1.footer-title {
 	border-left: 2px solid #fff;
-	padding: 5px 0 5px 14px;
+	padding: 4px 0 4px 14px;
 	text-transform: uppercase;
 	color: #fff;
 	margin-bottom: 40px;
@@ -51,22 +51,15 @@ h5 {
 	font-size: 16px;
 	}
 
-/* --------------------/ Universal*/
-.pad-z {
-	padding: 0;
-	}
-.pad-l-z {
-	padding-left: 0;
-	}
-.pad-r-z {
-	padding-right: 0;
+/* --------------------/ Universal */
+.mar-b {
+	margin-bottom: 30px;
 	}
 .divide {
 	background: #222;
 	height: 1px;
 	margin: 25px 0;
 	}
-
 
 /* --------------------/ HEADER */
 
@@ -162,18 +155,22 @@ ul.top-social li a:hover i {
 .carousel-caption {
 	top: 20%;
 	}
+.carousel {
+	margin: 0;
+	}
 	
 /* --------------------/ Home Servies */
 #home-services {
 	background: #fafafa;
-	padding: 50px 0;
+	padding: 50px 0 20px 0;
 	}
 .service-box {
 	text-align: center;
 	background: #fff;
 	border: 1px solid #eee;
 	padding: 40px 20px;	
-	min-height: 310px;
+	min-height: 337px;
+	margin-bottom: 30px;
 	}
 .service-box i {
 	font-size: 50px;
@@ -185,7 +182,7 @@ ul.top-social li a:hover i {
 	
 /* --------------------/ Home Blog */
 #home-blog {
-	margin: 50px auto;
+	margin: 50px auto 20px auto;
 	}
 #home-blog p span, #home-blog p span a {
 	font-size: 12px;
@@ -209,6 +206,8 @@ ul.top-social li a:hover i {
 #testimonial {
 	background: url(../images/testi-bg.jpg) no-repeat;
 	background-size: cover;
+	height: 367px;
+	overflow: hidden;
 	}
 .dot-pattern {
 	background: url(../images/pattern.png) ;
@@ -230,11 +229,12 @@ ul.top-social li a:hover i {
 	}
 .carousel-testi p:before {
 	content: "\f10d";	
-	margin-right: 5px;	
+	position: absolute;
+	left: 10px;
 	}
 .carousel-testi p:after {
 	content: "\f10e";	
-	margin-left: 5px;	
+	position: absolute;	
 	}
 .carousel-testi p:before, .carousel-testi p:after {
 	font-size: 20px;
@@ -262,10 +262,11 @@ a.prev, a.next {
 
 /* --------------------/ Home Portfolio */	
 #home-portfolio {
-	margin: 50px auto;
+	margin: 50px auto 20px auto;
 	}
 .portfolio-box {
 	position: relative;
+	margin-bottom: 30px;
 	}
 .hidden-icon {
 	position: absolute;
@@ -315,12 +316,18 @@ a.prev, a.next {
 	}
 #newsletter input[type="submit"] {
 	width: 100%;
+	-webkit-box-shadow: 1px 1px 3px rgba(2,2,2,.35);
+	-moz-box-shadow: 1px 1px 3px rgba(2,2,2,.35);
+	box-shadow: 1px 1px 3px rgba(2,2,2,.35);
+	}
+#newsletter input[type="submit"]:hover {
+	box-shadow: none;
 	}
 
 /* --------------------/ Footer */
 #footer {
 	background: #111;
-	padding: 50px 0;
+	padding: 50px 0 0 0;
 	color: #fff;
 	}
 #footer .news-box h4 a {
@@ -377,16 +384,39 @@ ul.footer-social li a {
 	width: 42px;
 	text-align:center;
 	display: block;
-	transition: all .5s;
+	transition: all .3s;
 	}
 ul.footer-social li a i {
 	font-size: 18px;
 	color: #fff;
 	}
 ul.footer-social li a:hover {
-	background: #6fb7e9;
-	border: 1px solid #6fb7e9;
+	background: #3c8dc5;
+	border: 1px solid #3c8dc5;
 	}
+#bottom-footer {
+	background: #222;
+	padding: 40px 0;
+	margin-top: 40px;
+	}
+#bottom-footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+	border-right: 1px solid #333;
+	}
+#bottom-footer ul li:last-child {
+	border: none;
+	}
+#bottom-footer ul li a {
+	color: #999;
+	text-transform: uppercase;
+	font-size: 12px;
+	}
+#bottom-footer p {
+	font-size: 12px;
+	color: #999;
+	}
+
 
 	
 
