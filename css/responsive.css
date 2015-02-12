@@ -1,0 +1,96 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-nav > li > a {
+		padding: 5px 15px;
+		}
+}
+
+
+/* sm */
+@media screen and (max-width: 991px) {
+	 .navbar-header {
+        float: none;		
+    }
+    .navbar-toggle {
+        display: block;
+		margin-top: 32px;
+    }
+    .navbar-collapse {
+        border: 0;
+		box-shadow: 0;
+		float: left;
+		width: 100%;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: left!important;
+    }
+	.navbar-nav {
+		margin-top: 20px;
+		}
+    .navbar-nav>li {
+        float: none;
+    }	
+    .navbar-nav > li > a {      
+		line-height: 30px !important;
+    }	
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }	
+	.search {
+		clear: both;
+		float: left;
+		margin-left: 5px;
+		margin-bottom: 20px;
+		}
+	.search i {
+		line-height: 40px;
+		float: left;
+		}
+	.search-hide {		
+		width: auto;
+		margin: 0 0 0 35px;
+		bottom: 3px;
+		position: relative;
+		float: right;
+		}
+	.search-hide:before {
+		content: "\f0d9";
+		font-family:'FontAwesome';
+		font-size: 25px;
+		position:absolute;
+		left: -8px;
+		top: 9px;
+		color: #fff;
+		}
+	
+}
+
+/* xs */
+@media (max-width: 767px) {
+ 	.navbar-collapse {
+        border: 0;
+		box-shadow: none;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+}
+
