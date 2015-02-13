@@ -42,6 +42,10 @@ h5 {
 	padding: 12px 25px;
 	font-size: 16px;
 	}
+.btn-default:hover {
+	border: 1px solid #6fb7e9;
+	background: none;
+	}
 
 /* --------------------/ Universal */
 .mar-b {
@@ -90,12 +94,13 @@ ul.top-social li a:hover i {
 	border-radius: 0;
 	margin-bottom: 0;
 	background: #3c8dc5;
-	min-height: 100px;  
+	/*min-height: 100px;  */
 	}
 .navbar a {
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 16px;	
+	font-size: 16px;
+	height: auto;	
 	}
 .navbar-nav > li > a {
 	padding: 5px 20px;
@@ -110,6 +115,7 @@ ul.top-social li a:hover i {
   	color: #fff;
 	border-radius: 0;
 	}
+/* --------------------/ DropDown */
 .navbar-nav > li:hover ul {
 	display: block;
 	background: #141f27;
@@ -153,7 +159,7 @@ ul.top-social li a:hover i {
 	font-size: 25px;
 	position:absolute;
 	right: 23px;
-	top: -18px;
+	top: -17px;
 	color: #fff;
 	}
 .search-hide input[type="text"] {
@@ -161,6 +167,7 @@ ul.top-social li a:hover i {
 	float: right;
 	/*width: 250px;*/	
 	text-indent: 15px;
+	line-height: 30px;
 	}
 .search-hide button {		
 	position: absolute;
@@ -168,6 +175,7 @@ ul.top-social li a:hover i {
 	right: 0;
 	background: none;
 	border: none;
+	padding: 0 5px;
 	}
 .search-hide button i {
 	color: #141f27;

@@ -78,7 +78,13 @@
 		top: 9px;
 		color: #fff;
 		}
-	
+	.navbar-nav > li:hover ul {
+		display: inherit;
+		}
+	.navbar-nav > li ul {
+		float: none;
+		position: relative;
+		}
 }
 
 /* xs */
