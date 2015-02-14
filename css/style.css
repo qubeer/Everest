@@ -606,8 +606,30 @@ ul.footer-social li a:hover {
 .person-social li a i:hover {
 	color: #3c8dc5;
 	}
+.number-count {
+	background: #6fb7e9;
+	text-align: center;
+	color: #fff;
+	padding: 39px 0 26px 0;
+	margin-bottom: 40px;
+	}
+.number-count span {
+	font-size: 70px;
+	margin-bottom: 20px;
+	display: block;
+	}
+.number-count p, .number-count p i {
+	font-size: 16px;
+	}
+.owl-carousel {
+	margin: 20px 0 40px 0;
+	cursor: move;
+	}
 	
 /* --------------------/ Sidebar */	
+.sidebar {
+	margin: 20px 0;
+	}
 .sidebar h2 {
 	font-size: 22px;
 	color: #3c8dc5;
@@ -687,14 +709,3 @@ ul.footer-social li a:hover {
 
 
 
-
-
-
-
-
-
-.wrapper { width: 980px; margin: 30px auto; position: relative;}
-.counter { background-color: #ffffff; padding: 20px 0; border-radius: 5px;}
-.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
-.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
-.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
