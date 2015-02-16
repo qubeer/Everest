@@ -65,4 +65,25 @@ li {
 	}
 a {
 	outline: none;
+	}
+textarea {
+	resize: none;	
 	}	
+blockquote {
+	font-size: 16px;
+	font-family: 'robotothin';
+	font-style: italic;
+	line-height: 20px;
+	margin-bottom: 30px;
+	}	
+blockquote:before {
+	font-family:'FontAwesome';
+	content: "\f10d";
+	margin-right: 8px;
+	}
+blockquote:after {
+	font-family:'FontAwesome';
+	content: "\f10e";
+	margin-left: 8px;
+	}	
+	
