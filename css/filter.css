@@ -35,7 +35,8 @@
 	cursor:pointer;
 	}
 .portfolio {
-	
+	margin: 15px;
+	width: 29.5%;
 	}
 .portfolio img {
 	max-width:100%;

@@ -12,6 +12,9 @@
 @media (max-width: 1199px) {
 	.margin-bottom-md {
 		margin-bottom: 30px;
+		}
+	.portfolio {
+		width: 28%;
 		}	
 	}
 
@@ -90,6 +93,9 @@
 		float: none;
 		position: relative;
 		}
+	.margin-bottom-sm {
+		margin-bottom: 30px;
+		}
 }
 
 /* xs */
@@ -111,6 +117,16 @@
 		}
 	.margin-bottom-xs {
 		margin-bottom: 30px;
+		}
+	.portfolio {
+		width: 45.5%;
+		}
+	ul.idTabs li a {
+		font-size: 14px;
+		padding: 12px 10px;
+		}
+	.circle-content {
+		text-align: center;
 		}
 }
 
