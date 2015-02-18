@@ -5,6 +5,7 @@
 	float:left;
 	font-weight: bold;
 	padding-right: 20px;
+	line-height: 20px;
 	}
 #filters li span {
 	display: block;			

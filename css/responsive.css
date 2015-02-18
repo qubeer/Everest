@@ -21,7 +21,7 @@
 
 /* sm */
 @media screen and (max-width: 991px) {
-	 .navbar-header {
+	.navbar-header {
         float: none;		
     }
     .navbar-toggle {
@@ -100,6 +100,9 @@
 
 /* xs */
 @media (max-width: 767px) {
+	#top-bar, .author h3 span {
+		display: none;
+		}
  	.navbar-collapse {
         border: 0;
 		box-shadow: none;
@@ -128,7 +131,22 @@
 	.circle-content {
 		text-align: center;
 		}
+	.page-title ul {
+		float:  none;
+		}
+	ul.idTabs li {
+		display: block;
+		}
+	#bottom-footer ul {
+		display: none;
+		}		
 }
+
+@media (max-width: 707px) {
+	.portfolio {
+		width: 96%;
+		}
+	}
 
 /* XS Portrait */
 @media (max-width: 480px) {
