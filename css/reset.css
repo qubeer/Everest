@@ -51,7 +51,8 @@ a:hover {
 	border-radius: 0;
 	}
 input[type="text"], input[type="submit"] {
-	height: 45px;
+	height: 45px;	
+	line-height: 0;
 	border: none;
 	}
 input[type="submit"] {

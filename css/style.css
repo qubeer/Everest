@@ -47,6 +47,42 @@ h5 {
 	border: 1px solid #6fb7e9;
 	background: none;
 	}
+/**/
+.hover-btn {
+    color: #6fb7e9;                           
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #6fb7e9;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+.hover-btn:hover {
+    box-shadow: inset 200px 0 0 0 #6fb7e9;
+	color: #fff;
+}
+.banner-btn {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 16px 30px;
+	display: inline-block;	
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 16px;                           
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #3c8dc5;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+	}
+.banner-btn:hover {
+    box-shadow: inset 200px 0 0 0 #3c8dc5;
+	color: #fff;
+	border: 1px solid #3c8dc5;
+}	
+	
 
 /* --------------------/ HEADER */
 
@@ -182,12 +218,14 @@ ul.top-social li a:hover i {
 	
 /* --------------------/ BANNER */
 #myCarousel h1 {
-	font-size: 3.5vw;
-	margin-bottom: 50px;
+	font-size: 50px;
+	/*font-size: 3.5vw;	*/
+	margin-bottom: 55px;
 	font-family: 'Slabo 13px', serif;
 	}
 #myCarousel h2 {
 	font-size: 18px;
+	font-family: 'Slabo 13px', serif;
 	}
 #myCarousel a.hvr-sweep-to-right {
 	text-transform: uppercase;
@@ -215,42 +253,7 @@ ul.top-social li a:hover i {
 	margin: 0;
 	}
 
-/**/
-.hover-btn {
-    color: #6fb7e9;                           
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #6fb7e9;
-	-webkit-transition: all ease 0.8s;
-	-moz-transition: all ease 0.8s;
-	transition: all ease 0.8s;
-}
-.hover-btn:hover {
-    box-shadow: inset 200px 0 0 0 #6fb7e9;
-	color: #fff;
-}
-.banner-btn {
-	color: #fff;
-	border: 1px solid #fff;
-	padding: 15px 30px;
-	display: inline-block;	
-	margin-top: 40px;
-	text-transform: uppercase;
-	font-size: 16px;                           
-    text-align: center;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #3c8dc5;
-	-webkit-transition: all ease 0.5s;
-	-moz-transition: all ease 0.5s;
-	transition: all ease 0.5s;
-	}
-.banner-btn:hover {
-    box-shadow: inset 200px 0 0 0 #3c8dc5;
-	color: #fff;
-	border: 1px solid #3c8dc5;
-}	
-	
+
 /* --------------------/ Home Servies */
 #home-services {
 	background: #fafafa;
@@ -941,6 +944,7 @@ ul.idTabs li a.selected {
 	padding: 5px 15px;
 	margin: 0 10px 15px 0;
 	font-size: 14px;
+	display: inline-block;
 	}
 .tags a:hover {
 	border: 1px solid #6fb7e9;

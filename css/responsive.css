@@ -96,6 +96,9 @@
 	.margin-bottom-sm {
 		margin-bottom: 30px;
 		}
+	#myCarousel h1 {
+		font-size: 45px;
+		}
 }
 
 /* xs */
@@ -138,7 +141,13 @@
 		}
 	#bottom-footer ul {
 		display: none;
-		}		
+		}
+	#myCarousel h1 {
+		font-size: 30px;
+		}	
+	.carousel-caption {
+		top: 10%;
+		}
 }
 
 @media (max-width: 707px) {
@@ -149,6 +158,8 @@
 
 /* XS Portrait */
 @media (max-width: 480px) {
-
+	.full-width-xsp {
+		width: 100%;
+		}
 }
 
