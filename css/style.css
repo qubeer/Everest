@@ -7,7 +7,8 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 @charset "utf-8";
 
 body {
-	font-family: 'robotolight', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	font-size: 14px;
 	}
 p {
@@ -38,28 +39,21 @@ h5 {
 
 /* --------------------/ BTNS*/
 .btn-default {
+    color: #6fb7e9;  
 	border: 1px solid #6fb7e9;
-	padding: 12px 25px;
-	font-size: 16px;
-	color: #6fb7e9;
-	}
-.btn-default:hover {
-	border: 1px solid #6fb7e9;
-	background: none;
-	}
-/**/
-.hover-btn {
-    color: #6fb7e9;                           
+	padding: 12px 25px;                         
     display: inline-block;
     text-align: center;
     cursor: pointer;
+	font-size: 16px;	
     box-shadow: inset 0 0 0 0 #6fb7e9;
 	-webkit-transition: all ease 0.8s;
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
 }
-.hover-btn:hover {
+.btn-default:hover {
     box-shadow: inset 200px 0 0 0 #6fb7e9;
+	border: 1px solid #6fb7e9;
 	color: #fff;
 }
 .banner-btn {
@@ -196,8 +190,10 @@ ul.top-social li a:hover i {
 	color: #000;
 	float: right;
 	width: 200px;	
-	text-indent: 15px;
-	line-height: 30px;
+	padding-left: 15px;
+	line-height: 0;
+	position: relative;
+	z-index: 9;
 	}
 .search-hide button {		
 	position: absolute;
@@ -279,6 +275,9 @@ ul.top-social li a:hover i {
 #home-blog {
 	margin: 50px auto 20px auto;
 	}
+#home-blog a.btn-default {
+	margin-top: 20px;
+	}
 p span, p span a {
 	font-size: 12px;
 	color: #aaa;
@@ -305,7 +304,8 @@ p span a:hover {
 .blog-page h3 {
 	font-size: 26px;
 	color: #333;
-	font-family: 'robotolight';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	}
 .blog-date {
 	text-align: center;
@@ -321,7 +321,8 @@ p span a:hover {
 	background: #57afe6;
 	color: #fff;
 	padding: 8px 0;
-	font-family: 'robotolight';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	}
 .author {
 	border-bottom: 1px solid #ccc;
@@ -485,6 +486,11 @@ p span a:hover {
 	width: 100%;
 	bottom: 0;
 	opacity: 0;
+	transition: all 2s;
+	-moz-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+	-webkit-transition: all 2s;
 	}
 .hidden-icon a {
 	width: 50%;
@@ -519,7 +525,8 @@ p span a:hover {
 	margin-bottom: 25px;
 	font-size: 26px;
 	color: #111;
-	font-family: 'robotolight';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	}
 .portfolio-details-list p {
 	font-size: 16px;
@@ -723,7 +730,8 @@ ul.footer-social li a:hover {
 .main-content h2 {
 	font-size: 22px;
 	text-transform: uppercase;
-	font-family: 'robotoregular';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	color: #333;
 	margin-bottom: 20px;
 	}

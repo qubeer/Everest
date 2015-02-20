@@ -39,20 +39,25 @@
     }
     .navbar-nav {
         float: left!important;
-    }
-	.navbar-nav {
 		margin-top: 20px;
-		}
+		width: 100%;
+    }	
     .navbar-nav>li {
         float: none;
     }	
     .navbar-nav > li > a {      
 		line-height: 30px !important;
+		width: 100%;
+		border-bottom: 1px solid #3b85b8;
     }	
     .navbar-text {
         float: none;
         margin: 15px 0;
     }
+	/* DropDown */
+	.navbar-nav > li ul {
+		
+		}
     /* since 3.1.0 */
     .navbar-collapse.collapse.in { 
         display: block!important;
@@ -148,13 +153,11 @@
 	.carousel-caption {
 		top: 10%;
 		}
-}
-
-@media (max-width: 707px) {
 	.portfolio {
 		width: 96%;
 		}
-	}
+}
+
 
 /* XS Portrait */
 @media (max-width: 480px) {
