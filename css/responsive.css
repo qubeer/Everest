@@ -68,11 +68,10 @@
 	.search {
 		clear: both;
 		float: left;
-		margin-left: 5px;
-		margin-bottom: 20px;
+		margin: 10px 0 20px 5px;		
 		}
 	.search i {
-		line-height: 40px;
+		line-height: 40px !important;
 		float: left;
 		}
 	.search-hide {		

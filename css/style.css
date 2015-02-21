@@ -118,6 +118,7 @@ ul.top-social li a:hover i {
 	border-radius: 0;
 	margin-bottom: 0;
 	background: #3c8dc5;
+	width: 100%;
 	/*min-height: 100px;  */
 	}
 .navbar a {
@@ -139,6 +140,17 @@ ul.top-social li a:hover i {
   	color: #fff;
 	border-radius: 0;
 	}
+/* Sticky Navbar */
+.cloned img {
+	width: 175px;
+	}
+.cloned .navbar-nav > li > a {
+	line-height: 69px;
+	}
+.cloned .search i {
+	line-height: 79px;
+	}
+
 /* --------------------/ DropDown */
 .navbar-nav > li:hover ul {
 	display: block;
