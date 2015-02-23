@@ -52,7 +52,7 @@ a:hover {
 	}
 input[type="text"], input[type="submit"] {
 	height: 45px;	
-	line-height: 0;
+	line-height: normal;
 	border: none;
 	}
 input[type="submit"] {
