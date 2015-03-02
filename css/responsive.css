@@ -13,7 +13,7 @@
 	.margin-bottom-md {
 		margin-bottom: 30px;
 		}
-	.portfolio {
+	.tile {
 		width: 28%;
 		}	
 	}
@@ -126,10 +126,7 @@
 		}
 	.margin-bottom-xs {
 		margin-bottom: 30px;
-		}
-	.portfolio {
-		width: 45.5%;
-		}
+		}	
 	ul.idTabs li a {
 		font-size: 14px;
 		padding: 12px 10px;
@@ -152,7 +149,7 @@
 	.carousel-caption {
 		top: 10%;
 		}
-	.portfolio {
+	.tile {
 		width: 96%;
 		}
 }

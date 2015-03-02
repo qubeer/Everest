@@ -70,8 +70,26 @@ $(document).ready(function(){
 		}
 		
 	});	
+	
+	
+	<!-- --------------------/ Filter Portfolio -->		
+	var selectedClass = "";
+	$("#filters li span").click(function(){
 		
-
+		$('#filters li span').removeClass('active');
+		$(this).addClass('active');
+		
+		//$('#filters li span').addClass('active');
+		
+	selectedClass = $(this).attr("data-rel");
+	$("#portfoliolist").fadeTo(100, 0.1);
+	$("#portfoliolist div.tile").not("."+selectedClass).fadeOut();
+	setTimeout(function() {
+	$("."+selectedClass).fadeIn();
+	$("#portfoliolist").fadeTo(500, 1);
+	}, 500);
+	
+	});    
 	
 
 });
@@ -84,8 +102,6 @@ $(document).ready(function(){
 	$('.navbar').addClass('original').clone().insertAfter('nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 	
 	scrollIntervalID = setInterval(stickIt, 10);
-	
-	
 	function stickIt() {
 	
 	var orgElementPos = $('.original').offset();
